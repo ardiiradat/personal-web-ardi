@@ -8,12 +8,11 @@ import Portfolio from "../components/portfolio/Portfolio";
 import Address from "../components/Address";
 import Social from "../components/Social";
 import Contact from "../components/Contact";
-import Blog from "../components/blog/Blog";
 import SwitchDark from "../components/switch/SwitchDark";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
-  { icon: "fa-user", menuName: "About" },
+  { icon: "fa-regular fa-user", menuName: "About" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" }
 ];
