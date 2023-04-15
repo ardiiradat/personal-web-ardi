@@ -1,10 +1,4 @@
 .slick-dots {
-  bottom: 7px;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 10px;
-  @media screen and (max-width: 767px) {
-    padding: 5px;
-  }
   li {
     margin: 0 3px;
     button {
@@ -46,6 +40,15 @@
     }
   }
 }
-.slick-arrow {
-  display: none !important;
+
+.slick-prev:before {
+  color: #fff !important;
+  content: "\f104" !important;
+  font: normal normal normal 60px/1 FontAwesome !important;
+}
+
+.slick-next:before {
+  color: #fff !important;
+  content: "\f105" !important;
+  font: normal normal normal 60px/1 FontAwesome !important;
 }
