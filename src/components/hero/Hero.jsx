@@ -9,9 +9,9 @@ const heroContent = {
   heroImage: "/assets/img/hero/dark.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "Ardi Iradat",
-  heroDesignation: "Front-End Developer",
+  heroDesignation: "Front-End Developer | Web Designer",
   heroDescriptions: `I'm Front‑End developer & Web Designer focused on
-  built clean & user‑friendly experiences website, I am passionate about
+  built clean & user‑friendly website, I am passionate about
   building excellent website.`,
   heroBtn: "more about me",
 };
@@ -39,7 +39,7 @@ const Hero = () => {
             />
             <h1 className="text-uppercase poppins-font">
               {"I'm"} {heroContent.heroTitleName}.
-              <span>{heroContent.heroDesignation}</span>
+              <span style={{fontSize: "24px"}}>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
             <button className="button" onClick={toggleModalOne}>

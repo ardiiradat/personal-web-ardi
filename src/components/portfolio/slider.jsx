@@ -16,19 +16,19 @@ function slider() {
     <Slider {...settings}>
       <div>
         <h1 className="text-center">Analisa.io</h1>
-        <a target="_blank" style={{textDecoration: "none"}} href="https://analisa.io">
+        <a target="_blank" style={{textDecoration: "none"}} href="https://analisa.io" rel="noreferrer">
         <img src="/assets/img/portfolio/mockup-analisa.png" alt="" />
         </a>
       </div>
       <div>
         <h1 className="text-center">Hawksight.co</h1>
-        <a target="_blank" style={{textDecoration: "none"}} href="https://hawksight.co">
+        <a target="_blank" style={{textDecoration: "none"}} href="https://hawksight.co" rel="noreferrer">
           <img src="/assets/img/portfolio/mockup-hawksight.png" alt="" />
         </a>
       </div>
       <div>
         <h1 className="text-center">MandiriKartuKredit.com</h1>
-        <a target="_blank" style={{textDecoration: "none"}} href="https://mandirikartukredit.com">
+        <a target="_blank" style={{textDecoration: "none"}} href="https://mandirikartukredit.com" rel="noreferrer">
           <img src="/assets/img/portfolio/mockup-mandiri-kartukredit.png" alt="" />
         </a>
       </div>

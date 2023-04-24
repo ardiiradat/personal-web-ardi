@@ -17,7 +17,7 @@ const Skills = () => {
     <>
       {skillsContent.map((val, i) => (
         <div className="col-6 col-md-3 mb-3 mb-sm-5" key={i}>
-          <div className="w-100 d-flex justify-content-center" style={{padding: val.padding, filter: val.filter}}>
+          <div className={`w-100 d-flex justify-content-center hover-unfilter ${val.skillName}`} style={{padding: val.padding, filter: val.filter}}>
             <img
               src={val.img}
               alt="image icon skills"

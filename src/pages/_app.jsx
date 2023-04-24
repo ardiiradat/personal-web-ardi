@@ -11,17 +11,17 @@ const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({
-      duration: 1200,
+      duration: 200,
     });
   }, []);
   return (
     <>
       <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="255, 160, 1"
+        innerSize={10}
+        outerSize={45}
+        color="52, 152, 219"
         outerAlpha={0.3}
-        innerScale={0.7}
+        innerScale={1}
         outerScale={1.2}
       />
       <ContextProvider>
