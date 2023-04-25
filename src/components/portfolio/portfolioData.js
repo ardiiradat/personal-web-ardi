@@ -13,7 +13,7 @@ const PortfolioData = [
     id: 1,
     type: "mockup project",
     image: Image1,
-    tag: ["mockup"],
+    tag: ["website"],
     delayAnimation: "0",
     modalDetails: [
       {
@@ -29,7 +29,7 @@ const PortfolioData = [
     id: 2,
     type: "youtube project",
     image: Image2,
-    tag: ["video"],
+    tag: ["website"],
     delayAnimation: "100",
     modalDetails: [
       {
@@ -45,7 +45,7 @@ const PortfolioData = [
     id: 3,
     type: "slider project",
     image: Image3,
-    tag: [],
+    tag: ["dribbble"],
     delayAnimation: "200",
     modalDetails: [
       {
@@ -61,7 +61,7 @@ const PortfolioData = [
     id: 4,
     type: "local project",
     image: Image4,
-    tag: ["logo", "video"],
+    tag: ["dribble"],
     delayAnimation: "0",
     modalDetails: [
       {
@@ -77,7 +77,7 @@ const PortfolioData = [
     id: 5,
     type: "saas project",
     image: Image5,
-    tag: ["logo"],
+    tag: ["codepen"],
     delayAnimation: "100",
     modalDetails: [
       {
@@ -93,7 +93,7 @@ const PortfolioData = [
     id: 6,
     type: "mockup project",
     image: Image6,
-    tag: ["logo", "mockup"],
+    tag: ["codepen"],
     delayAnimation: "200",
     modalDetails: [
       {
@@ -109,7 +109,7 @@ const PortfolioData = [
     id: 7,
     type: "facebook project",
     image: Image7,
-    tag: ["logo"],
+    tag: ["dribbble"],
     delayAnimation: "0",
     modalDetails: [
       {
@@ -125,7 +125,7 @@ const PortfolioData = [
     id: 8,
     type: "dribble project",
     image: Image8,
-    tag: ["graphic design"],
+    tag: ["website"],
     delayAnimation: "100",
     modalDetails: [
       {
@@ -141,7 +141,7 @@ const PortfolioData = [
     id: 9,
     type: "behence project",
     image: Image9,
-    tag: ["graphic design", "mockup"],
+    tag: ["website"],
     delayAnimation: "200",
     modalDetails: [
       {
