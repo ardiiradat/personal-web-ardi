@@ -4,13 +4,13 @@ const Address = () => {
   return (
     <>
       <p className="open-sans-font custom-span-contact position-relative">
-        <i className="fa fa-map position-absolute"></i>
+        <i className="bi bi-pin-map-fill position-absolute"></i>
         <span className="d-block">Address</span>Taman Kedaung. Kedaung Pamulang Tangerang Selatan, Banten, Indonesia
       </p>
       {/* End .custom-span-contact */}
 
       <p className="open-sans-font custom-span-contact position-relative">
-        <i className="fa fa-envelope-open position-absolute"></i>
+        <i className="bi bi-envelope-paper position-absolute"></i>
         <span className="d-block">Mail me</span>{" "}
         <a href="mailto:steve@mail.com">ardi.iradat@gmail.com</a>
       </p>

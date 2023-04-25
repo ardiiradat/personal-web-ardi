@@ -21,7 +21,6 @@ const Portfolio = () => {
             <Tab>ALL</Tab>
             <Tab>WEBSITE</Tab>
             <Tab>CODEPEN</Tab>
-            <Tab>DRIBBBLE</Tab>
           </TabList>
 
           <div className="container">
