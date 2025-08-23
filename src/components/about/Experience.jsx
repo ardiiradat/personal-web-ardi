@@ -2,7 +2,13 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2019 - Present",
+    year: "   2021 - 2025",
+    position: "Front-End Developer",
+    companyName: "Ashlex Consulting - Freelance",
+    details: "Develop Maintenance Web Diabetesresearch.com & Develop Web USJA.com",
+  },
+  {
+    year: "   2019 - 2023",
     position: "Front-End Developer",
     companyName: "PT. Binc Teknologi Grup",
     details: "Develop Maintenance Web Analisa.io & Develop Web Hawksight.co",
